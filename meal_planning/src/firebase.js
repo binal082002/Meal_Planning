@@ -9,17 +9,7 @@ import {
 } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-auth.js";
 
 import { getFirestore, doc, setDoc } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-firestore.js";
-
-// Your Firebase configuration
-const firebaseConfig = {
-  apiKey: "AIzaSyCFg08Dntuv9KAClESS1bd75OYRUEvKM3c",
-  authDomain: "fir-auth-33a83.firebaseapp.com",
-  projectId: "fir-auth-33a83",
-  storageBucket: "fir-auth-33a83.firebasestorage.app",
-  messagingSenderId: "1026556723055",
-  appId: "1:1026556723055:web:a5204254d53911cffa329a",
-  measurementId: "G-4GZ7CJ550X",
-};
+import firebaseConfig from "./firebase.config";
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
